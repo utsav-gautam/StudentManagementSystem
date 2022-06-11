@@ -18,8 +18,8 @@
       <PropertyRef Name="CourseID" />
     </Key>
     <Property Name="CourseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="Credits" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Credits" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Enrollments" Relationship="StudentManagement_DBModel.FK_dbo_Enrollment_dbo_Course_CourseID" FromRole="Course" ToRole="Enrollment" />
   </EntityType>
   <EntityType Name="Enrollment">
@@ -42,6 +42,7 @@
     <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="EnrollmentDate" Type="DateTime" Precision="3" />
     <NavigationProperty Name="Enrollments" Relationship="StudentManagement_DBModel.FK_dbo_Enrollment_dbo_Student_StudentId" FromRole="Student" ToRole="Enrollment" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="FK_dbo_Enrollment_dbo_Course_CourseID">
     <End Type="StudentManagement_DBModel.Course" Role="Course" Multiplicity="1">

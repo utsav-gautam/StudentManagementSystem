@@ -106,3 +106,5 @@ C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\
 C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
 C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.dll
 C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.pdb
+C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Migrations.AddedBirthDate.resources
+C:\Users\mindc1may62\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
